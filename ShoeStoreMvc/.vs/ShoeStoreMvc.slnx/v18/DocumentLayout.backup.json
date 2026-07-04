@@ -1,151 +1,151 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\",
+  "WorkspaceRootPath": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\shoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\shoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\shoe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\shoe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\shoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\shoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\product\\shoelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\product\\shoelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\shoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\shoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\shoe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\shoe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\shoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\shoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\product\\shoelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\product\\shoelist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ShoeStoreMvcIdentityDb/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\wwwroot\\stylish-free\\stylish-free\\styles.html||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\wwwroot\\stylish-free\\stylish-free\\styles.html||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\wwwroot\\stylish-free\\stylish-free\\styles.html||{C76D83F8-A489-11D0-8195-00A0C91BBEE3}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\wwwroot\\stylish-free\\stylish-free\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\wwwroot\\stylish-free\\stylish-free\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\wwwroot\\stylish-free\\stylish-free\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\migrations\\20260624080040_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\migrations\\20260624080040_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\migrations\\20260624080040_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/shoeStore/True/SqlTable/dbo.Shoes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\7efapi-mvcproject\\shoestoremvc\\shoestoremvc\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|c:\\users\\eylul\\documents\\github\\07-stylishstore\\shoestoremvc\\shoestoremvc\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D73E3A4-1D39-D0FF-20F5-43730FE56FC8}|ShoeStoreMvc\\ShoeStoreMvc.csproj|solutionrelative:shoestoremvc\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -156,7 +156,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -172,11 +172,97 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
+              "Title": "ShoeController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ShoeController.cs",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\ShoeController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ShoeController.cs",
+              "RelativeToolTip": "ShoeStoreMvc\\Controllers\\ShoeController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T12:40:04.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T12:35:30.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ShoeStoreMvc\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-23T18:59:55.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAO0BAAAAAAAAAAAhwAMCAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T07:14:17.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AccountController.cs*",
+              "RelativeToolTip": "ShoeStoreMvc\\Controllers\\AccountController.cs*",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAuwMkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T08:23:49.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
+              "RelativeToolTip": "ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T12:41:26.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwDwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T12:26:06.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Shoe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Index.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Shoe\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -185,71 +271,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
-              "RelativeToolTip": "ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T12:38:10.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "ShoeStoreMvc\\Views\\Category\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAIwDkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T12:01:45.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "ShoeStoreMvc\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAIwDwAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T12:26:06.826Z"
+              "DocumentIndex": 0,
+              "Title": "ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs*",
+              "RelativeToolTip": "ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T08:08:47.107Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
-              "RelativeToolTip": "ShoeStoreMvc\\Views\\Shoe\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T12:41:26.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Category.cs",
-              "RelativeToolTip": "ShoeStoreMvc\\Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T12:19:03.341Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Shoe.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Shoe.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Shoe.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Models\\Shoe.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Shoe.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Shoe.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Models\\Shoe.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAApwA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -258,46 +297,46 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ShoeController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ShoeController.cs",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\ShoeController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ShoeController.cs",
-              "RelativeToolTip": "ShoeStoreMvc\\Controllers\\ShoeController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCgAAAAgAAAAAAAAAA==",
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Category.cs",
+              "RelativeToolTip": "ShoeStoreMvc\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T12:40:04.956Z"
+              "WhenOpened": "2026-06-23T12:19:03.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
-              "RelativeToolTip": "ShoeStoreMvc\\Views\\Brand\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "ShoeStoreMvc\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T12:35:30.035Z"
+              "WhenOpened": "2026-06-24T12:01:45.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "ShoeStoreMvc\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T18:59:55.917Z"
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
+              "RelativeToolTip": "ShoeStoreMvc\\Views\\Brand\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-24T12:38:10.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -305,11 +344,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Create.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Brand\\Create.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Brand\\Create.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Brand\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -317,11 +356,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "BrandController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\BrandController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\BrandController.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Controllers\\BrandController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,11 +368,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -341,11 +380,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Brand.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Brand.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Models\\Brand.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Brand.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Brand.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Models\\Brand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -353,11 +392,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Data\\AppDbContext.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -365,11 +404,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Category\\Index.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Category\\Index.cshtml",
               "ViewState": "AgIAABoAAAAAAAAAAAAYwDYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -377,11 +416,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Program.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Program.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Program.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Program.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Program.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAD4vwoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -389,11 +428,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\appsettings.json",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\appsettings.json",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\appsettings.json",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\appsettings.json",
               "RelativeToolTip": "ShoeStoreMvc\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -401,11 +440,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "ShoeList.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\ShoeList.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\ShoeList.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Product\\ShoeList.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\ShoeList.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Product\\ShoeList.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Product\\ShoeList.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -413,11 +452,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Admin\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -425,35 +464,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ShoeStoreMvc\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAkwB4AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:23:49.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ShoeStoreMvc\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAANoBAAAAAAAAAAAUwPwBAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-24T07:14:17.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\AdminController.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAewA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -461,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ShoeStoreMvcIdentityDb/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ShoeStoreMvcIdentityDb/True/SqlTable/dbo.AspNetUsers.sql",
@@ -470,11 +485,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\RegisterViewModel.cs",
               "RelativeToolTip": "ShoeStoreMvc\\ViewModels\\RegisterViewModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -482,11 +497,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "styles.html",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\styles.html",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\styles.html",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\styles.html",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\styles.html",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\styles.html",
               "RelativeToolTip": "ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\styles.html",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -494,11 +509,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "ShoeStoreMvc\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAswA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -506,11 +521,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Users.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Users.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\Users.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Models\\Users.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -518,11 +533,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\style.css",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\style.css",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\style.css",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\style.css",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\style.css",
               "RelativeToolTip": "ShoeStoreMvc\\wwwroot\\stylish-free\\stylish-free\\style.css",
               "ViewState": "AgIAANADAAAAAAAAAAArwNsDAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -530,11 +545,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "VerifyEmailViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\VerifyEmailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\VerifyEmailViewModel.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\ViewModels\\VerifyEmailViewModel.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\VerifyEmailViewModel.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\VerifyEmailViewModel.cs",
               "RelativeToolTip": "ShoeStoreMvc\\ViewModels\\VerifyEmailViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -542,23 +557,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs",
-              "RelativeDocumentMoniker": "ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs",
-              "RelativeToolTip": "ShoeStoreMvc\\ViewModels\\ChangePasswordViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T08:08:47.107Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 32,
               "Title": "20260624080040_IdentityTables.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Migrations\\20260624080040_IdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Migrations\\20260624080040_IdentityTables.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Migrations\\20260624080040_IdentityTables.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Migrations\\20260624080040_IdentityTables.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Migrations\\20260624080040_IdentityTables.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Migrations\\20260624080040_IdentityTables.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -568,9 +571,9 @@
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "ShoeStoreMvc\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -580,9 +583,9 @@
               "$type": "Document",
               "DocumentIndex": 34,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -601,9 +604,9 @@
               "$type": "Document",
               "DocumentIndex": 36,
               "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "ShoeStoreMvc\\Models\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\Models\\HomeViewModel.cs",
               "RelativeToolTip": "ShoeStoreMvc\\Models\\HomeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

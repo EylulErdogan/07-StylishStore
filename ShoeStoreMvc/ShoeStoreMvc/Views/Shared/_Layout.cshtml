@@ -343,7 +343,10 @@
                                         </p>
 
                                         <p class="lost-password">
-                                            <a asp-controller="Account" asp-action="VerifyEmail">
+                                            <a href="#"
+                                               data-bs-dismiss="modal"
+                                               data-bs-toggle="modal"
+                                               data-bs-target="#modalforgotpassword">
                                                 Şifremi Unuttum
                                             </a>
                                         </p>
@@ -438,6 +441,95 @@
                             </div>
                         </div>
                     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalforgotpassword" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-md-down modal-md modal-dialog-centered">
+            <div class="modal-content p-4">
+
+                <div class="modal-header mx-auto border-0">
+                    <h2 class="modal-title fs-3 fw-normal">Şifremi Unuttum</h2>
+                </div>
+
+                <div class="modal-body">
+                    <form asp-controller="Account" asp-action="VerifyEmail" method="post">
+
+                        <input type="email"
+                               name="Email"
+                               placeholder="Email adresinizi giriniz"
+                               class="mb-3 ps-3 text-input" />
+                        <div class="modal-footer border-0 mt-4 d-flex justify-content-center gap-3">
+                            <button type="submit" class="btn btn-red hvr-sweep-to-right dark-sweep">
+                                Devam Et
+                            </button>
+
+                            <button type="button"
+                                    class="btn btn-outline-gray hvr-sweep-to-right dark-sweep"
+                                    data-bs-dismiss="modal"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#modallogin">
+                                Girişe Dön
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalchangepassword" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen-md-down modal-md modal-dialog-centered">
+            <div class="modal-content p-4">
+
+                <div class="modal-header mx-auto border-0">
+                    <h2 class="modal-title fs-3 fw-normal">Yeni Şifre Belirle</h2>
+                </div>
+
+                <div class="modal-body">
+    @if (TempData["PasswordError"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["PasswordError"]
+        </div>
+    }
+                    <form asp-controller="Account" asp-action="ChangePassword" method="post">
+
+                        <input type="hidden" name="Email" value="@TempData["ResetEmail"]" />
+                        <input type="email"
+                               name="Email"
+                               value="@TempData["ResetEmail"]"
+                               class="mb-3 ps-3 text-input"
+                               readonly />
+
+                        <input type="password"
+                               name="NewPassword"
+                               placeholder="Yeni Şifre"
+                               class="mb-3 ps-3 text-input" />
+
+                        <input type="password"
+                               name="ConfirmPassword"
+                               placeholder="Yeni Şifre Tekrar"
+                               class="mb-3 ps-3 text-input" />
+
+                        <div class="modal-footer border-0 mt-4 d-flex justify-content-center gap-3">
+                            <button type="submit" class="btn btn-red hvr-sweep-to-right dark-sweep">
+                                Şifreyi Güncelle
+                            </button>
+
+                            <button type="button"
+                                    class="btn btn-outline-gray hvr-sweep-to-right dark-sweep"
+                                    data-bs-dismiss="modal"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#modallogin">
+                                Girişe Dön
+                            </button>
+                        </div>
+
+                    </form>
                 </div>
 
             </div>
@@ -697,6 +789,25 @@
     <script src="~/stylish-free/js/jquery-1.11.0.min.js"></script>
     <script src="~/stylish-free/js/plugins.js"></script>
     <script src="~/stylish-free/js/script.js"></script>
+    @if (TempData["OpenChangePasswordModal"] != null)
+    {
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            var modal = new bootstrap.Modal(document.getElementById('modalchangepassword'));
+            modal.show();
+            });
+        </script>
+    }
+
+    @if (TempData["OpenLoginModal"] != null)
+    {
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+            var modal = new bootstrap.Modal(document.getElementById('modallogin'));
+            modal.show();
+            });
+        </script>
+    }
 </body>
 
 </html>

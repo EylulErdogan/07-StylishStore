@@ -4228,11 +4228,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ShoeStoreMvc.csproj",
+      "projectUniqueName": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ShoeStoreMvc.csproj",
       "projectName": "ShoeStoreMvc",
-      "projectPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\ShoeStoreMvc.csproj",
+      "projectPath": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\ShoeStoreMvc.csproj",
       "packagesPath": "C:\\Users\\eylul\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreMvc\\ShoeStoreMvc\\obj\\",
+      "outputPath": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreMvc\\ShoeStoreMvc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

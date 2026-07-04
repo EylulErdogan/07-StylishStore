@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycoEJhs15ho=",
+  "dgSpecHash": "LbFmh8aGl+8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\7EfApi-MVCProject\\ShoeStoreApi\\ShoeStoreApi\\ShoeStoreApi.csproj",
+  "projectFilePath": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreApi\\ShoeStoreApi\\ShoeStoreApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eylul\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\eylul\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

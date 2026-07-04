@@ -131,7 +131,10 @@ namespace ShoeStoreMvc.Controllers
                     return View(model);
                 }
 
-                return RedirectToAction("ChangePassword", "Account", new { username = user.UserName });
+                TempData["OpenChangePasswordModal"] = "true";
+                TempData["ResetEmail"] = user.UserName;
+
+                return RedirectToAction("Index", "Home");
             }
 
             return View(model);
@@ -153,42 +156,49 @@ namespace ShoeStoreMvc.Controllers
         [HttpPost]
         public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
         {
-            if (ModelState.IsValid)
+            if (string.IsNullOrEmpty(model.Email) ||
+                string.IsNullOrEmpty(model.NewPassword) ||
+                string.IsNullOrEmpty(model.ConfirmPassword))
             {
-                var user = await userManager.FindByNameAsync(model.Email);
-
-                if (user == null)
-                {
-                    ModelState.AddModelError("", "Kullanıcı bulunamadı");
-                    return View(model);
-                }
-
-                var removePasswordResult = await userManager.RemovePasswordAsync(user);
-
-                if (removePasswordResult.Succeeded)
-                {
-                    var addPasswordResult = await userManager.AddPasswordAsync(user, model.NewPassword);
-
-                    if (addPasswordResult.Succeeded)
-                    {
-                        return RedirectToAction("Login", "Account");
-                    }
-
-                    foreach (var error in addPasswordResult.Errors)
-                    {
-                        ModelState.AddModelError("", error.Description);
-                    }
-
-                    return View(model);
-                }
-
-                foreach (var error in removePasswordResult.Errors)
-                {
-                    ModelState.AddModelError("", error.Description);
-                }
+                TempData["OpenChangePasswordModal"] = "true";
+                TempData["ResetEmail"] = model.Email;
+                TempData["PasswordError"] = "Tüm alanları doldurunuz.";
+                return RedirectToAction("Index", "Home");
             }
 
-            return View(model);
+            if (model.NewPassword != model.ConfirmPassword)
+            {
+                TempData["OpenChangePasswordModal"] = "true";
+                TempData["ResetEmail"] = model.Email;
+                TempData["PasswordError"] = "Şifreler eşleşmiyor.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            var user = await userManager.FindByEmailAsync(model.Email);
+
+            if (user == null)
+            {
+                TempData["OpenChangePasswordModal"] = "true";
+                TempData["ResetEmail"] = model.Email;
+                TempData["PasswordError"] = "Kullanıcı bulunamadı.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            var token = await userManager.GeneratePasswordResetTokenAsync(user);
+            var result = await userManager.ResetPasswordAsync(user, token, model.NewPassword);
+
+            if (result.Succeeded)
+            {
+                TempData["OpenLoginModal"] = "true";
+                TempData["PasswordSuccess"] = "Şifreniz başarıyla güncellendi.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            TempData["OpenChangePasswordModal"] = "true";
+            TempData["ResetEmail"] = model.Email;
+            TempData["PasswordError"] = string.Join(" ", result.Errors.Select(x => x.Description));
+
+            return RedirectToAction("Index", "Home");
         }
 
         public async Task<IActionResult> Logout()
