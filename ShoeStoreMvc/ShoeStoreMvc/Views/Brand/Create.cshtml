@@ -1,0 +1,58 @@
+﻿@model ShoeStoreApi.Models.Brand
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Yeni Marka Ekle</h4>
+                    </div>
+
+                    <div class="content">
+
+                        <form asp-action="Create" asp-controller="Brand" method="post">
+
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Kategori Adı</label>
+                                        <input asp-for="BrandName"
+                                               class="form-control"
+                                               placeholder="Marka adı giriniz" />
+
+                                        <span asp-validation-for="BrandName"
+                                              class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit"
+                                    class="btn btn-info btn-fill pull-right">
+                                Ekle
+                            </button>
+
+                            <a asp-action="Index"
+                               asp-controller="Brand"
+                               class="btn btn-secondary">
+                                Geri Dön
+                            </a>
+
+                            <div class="clearfix"></div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
