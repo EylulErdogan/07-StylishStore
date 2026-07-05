@@ -29,13 +29,13 @@ A full-stack shoe shopping application built using ASP.NET Core MVC, ASP.NET Cor
 
 ## Products
 
-![Products](images/products.png)
+![Products](images/Products.png)
 
 ---
 
 ## Product Detail
 
-![Detail](images/detail.png)
+![Detail](images/Detail.png)
 
 ---
 
@@ -45,39 +45,34 @@ A full-stack shoe shopping application built using ASP.NET Core MVC, ASP.NET Cor
 
 ---
 
-## Register
-
-![Register](images/register.png)
-
----
 
 ## Admin Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ---
 
 ## Category Management
 
-![Category](images/category.png)
+![Category](images/Category.png)
 
 ---
 
 ## Brand Management
 
-![Brand](images/brand.png)
+![Brand](images/Brand.png)
 
 ---
 
 ## Product Management
 
-![Product](images/admin-product.png)
+![Product](images/Product.png)
 
 ---
 
 ## Sales Management
 
-![Sales](images/sales.png)
+![Sales](images/Sales.png)
 
 ---
 
