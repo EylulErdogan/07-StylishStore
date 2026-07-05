@@ -105,7 +105,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 313,
           "SelectedChildIndex": 5,
           "Children": [
             {
@@ -130,8 +130,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Migrations\\20260705065236_AddSalesTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T06:52:36.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T06:52:36.955Z"
             },
             {
               "$type": "Document",
@@ -152,7 +151,7 @@
               "RelativeDocumentMoniker": "ShoeStoreApi\\Controllers\\SalesController.cs",
               "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\07-StylishStore\\ShoeStoreApi\\ShoeStoreApi\\Controllers\\SalesController.cs",
               "RelativeToolTip": "ShoeStoreApi\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAmwCYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAmwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-05T06:17:38.866Z",
               "EditorCaption": ""
@@ -167,8 +166,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T19:01:14.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T19:01:14.07Z"
             },
             {
               "$type": "Document",
@@ -191,8 +189,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:31:40.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:31:40.89Z"
             },
             {
               "$type": "Document",
@@ -204,8 +201,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Controllers\\ShoesController.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAQwEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:46:58.485Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:46:58.485Z"
             },
             {
               "$type": "Document",
@@ -217,8 +213,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Models\\Sale.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwBQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T06:17:02.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T06:17:02.035Z"
             },
             {
               "$type": "Document",
@@ -239,8 +234,7 @@
               "RelativeToolTip": "..\\ShoeStoreMvc\\ShoeStoreMvc\\ViewModels\\AdminDashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-04T21:30:05.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-04T21:30:05.616Z"
             },
             {
               "$type": "Document",
@@ -252,8 +246,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:30:57.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:30:57.512Z"
             },
             {
               "$type": "Document",
@@ -265,8 +258,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:41:37.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:41:37.336Z"
             },
             {
               "$type": "Document",
@@ -278,8 +270,7 @@
               "RelativeToolTip": "ShoeStoreApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-23T11:33:13.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:33:13.583Z"
             },
             {
               "$type": "Document",
@@ -291,8 +282,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:34:18.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:34:18.619Z"
             },
             {
               "$type": "Document",
@@ -304,8 +294,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Models\\Brand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:30:46.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:30:46.357Z"
             },
             {
               "$type": "Document",
@@ -317,8 +306,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Models\\Shoe.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:31:02.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:31:02.055Z"
             },
             {
               "$type": "Document",
@@ -359,8 +347,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Migrations\\20260623170829_AddCategoryRelationjjl.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T17:08:29.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T17:08:29.152Z"
             },
             {
               "$type": "Document",
@@ -438,8 +425,7 @@
               "RelativeToolTip": "ShoeStoreApi\\Controllers\\BrandsController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAIBJwA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-23T11:46:03.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-23T11:46:03.009Z"
             }
           ]
         }
