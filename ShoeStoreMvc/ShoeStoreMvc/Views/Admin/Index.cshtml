@@ -1,212 +1,153 @@
-﻿
+﻿@model ShoeStoreMvc.Models.AdminDashboardViewModel
+
 @{
     Layout = "_AdminLayout";
 }
-<div class="content">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
 
-                    <div class="header">
-                        <h4 class="title">Email Statistics</h4>
-                        <p class="category">Last Campaign Performance</p>
-                    </div>
-                    <div class="content">
-                        <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+<div class="row g-4">
 
-                        <div class="footer">
-                            <div class="legend">
-                                <i class="fa fa-circle text-info"></i> Open
-                                <i class="fa fa-circle text-danger"></i> Bounce
-                                <i class="fa fa-circle text-warning"></i> Unsubscribe
-                            </div>
-                            <hr>
-                            <div class="stats">
-                                <i class="fa fa-clock-o"></i> Campaign sent 2 days ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="header">
-                        <h4 class="title">Users Behavior</h4>
-                        <p class="category">24 Hours performance</p>
-                    </div>
-                    <div class="content">
-                        <div id="chartHours" class="ct-chart"></div>
-                        <div class="footer">
-                            <div class="legend">
-                                <i class="fa fa-circle text-info"></i> Open
-                                <i class="fa fa-circle text-danger"></i> Click
-                                <i class="fa fa-circle text-warning"></i> Click Second Time
-                            </div>
-                            <hr>
-                            <div class="stats">
-                                <i class="fa fa-history"></i> Updated 3 minutes ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card ">
-                    <div class="header">
-                        <h4 class="title">2014 Sales</h4>
-                        <p class="category">All products including Taxes</p>
-                    </div>
-                    <div class="content">
-                        <div id="chartActivity" class="ct-chart"></div>
-
-                        <div class="footer">
-                            <div class="legend">
-                                <i class="fa fa-circle text-info"></i> Tesla Model S
-                                <i class="fa fa-circle text-danger"></i> BMW 5 Series
-                            </div>
-                            <hr>
-                            <div class="stats">
-                                <i class="fa fa-check"></i> Data information certified
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card ">
-                    <div class="header">
-                        <h4 class="title">Tasks</h4>
-                        <p class="category">Backend development</p>
-                    </div>
-                    <div class="content">
-                        <div class="table-full-width">
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input id="checkbox1" type="checkbox">
-                                                <label for="checkbox1"></label>
-                                            </div>
-                                        </td>
-                                        <td>Sign contract for "What are conference organizers afraid of?"</td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input id="checkbox2" type="checkbox" checked>
-                                                <label for="checkbox2"></label>
-                                            </div>
-                                        </td>
-                                        <td>Lines From Great Russian Literature? Or E-mails From My Boss?</td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input id="checkbox3" type="checkbox">
-                                                <label for="checkbox3"></label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input id="checkbox4" type="checkbox" checked>
-                                                <label for="checkbox4"></label>
-                                            </div>
-                                        </td>
-                                        <td>Create 4 Invisible User Experiences you Never Knew About</td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input id="checkbox5" type="checkbox">
-                                                <label for="checkbox5"></label>
-                                            </div>
-                                        </td>
-                                        <td>Read "Following makes Medium better"</td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="checkbox">
-                                                <input id="checkbox6" type="checkbox" checked>
-                                                <label for="checkbox6"></label>
-                                            </div>
-                                        </td>
-                                        <td>Unfollow 5 enemies from twitter</td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="Edit Task" class="btn btn-info btn-simple btn-xs">
-                                                <i class="fa fa-edit"></i>
-                                            </button>
-                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                                                <i class="fa fa-times"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div class="footer">
-                            <hr>
-                            <div class="stats">
-                                <i class="fa fa-history"></i> Updated 3 minutes ago
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="col-md-3">
+        <div class="stat-card">
+            <h6 class="text-muted">Toplam Ürün</h6>
+            <h3>@Model.TotalProductCount</h3>
+            <small class="text-success">Sistemdeki ürün sayısı</small>
         </div>
     </div>
+
+    <div class="col-md-3">
+        <div class="stat-card">
+            <h6 class="text-muted">Toplam Stok</h6>
+            <h3>@Model.TotalStockCount</h3>
+            <small class="text-primary">Tüm ürünlerin stoğu</small>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card">
+            <h6 class="text-muted">Kategori</h6>
+            <h3>@Model.CategoryCount</h3>
+            <small>Toplam kategori</small>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="stat-card">
+            <h6 class="text-muted">Düşük Stok</h6>
+            <h3>@Model.LowStockProducts.Count</h3>
+            <small class="text-danger">Stok 10 ve altı</small>
+        </div>
+    </div>
+
+</div>
+
+<div class="row mt-4 g-4">
+
+    <div class="col-md-8">
+        <div class="table-card">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <h5 class="mb-0">Son Eklenen Ürünler</h5>
+                    <small class="text-muted">API üzerinden gelen ürün raporu</small>
+                </div>
+
+                <a asp-controller="Shoe" asp-action="Index" class="btn btn-dark btn-sm">
+                    Tüm Ürünler
+                </a>
+            </div>
+
+            <table class="table align-middle">
+                <thead>
+                    <tr>
+                        <th>Ürün</th>
+                        <th>Marka</th>
+                        <th>Fiyat</th>
+                        <th>Stok</th>
+                        <th>Durum</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model.LastProducts)
+                    {
+                        <tr>
+                            <td>@item.ShoeName</td>
+                            <td>@item.BrandName</td>
+                            <td>@item.Price TL</td>
+                            <td>@item.Stock</td>
+                            <td>
+                                @if (item.Stock <= 5)
+                                {
+                                    <span class="badge bg-danger">Düşük</span>
+                                }
+                                else if (item.Stock <= 10)
+                                {
+                                    <span class="badge bg-warning text-dark">Azalıyor</span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-success">Yeterli</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="table-card mb-4">
+            <h5 class="mb-4">En Pahalı Ürün</h5>
+
+            @if (Model.MostExpensiveProduct != null)
+            {
+                <h6>@Model.MostExpensiveProduct.ShoeName</h6>
+                <p class="mb-1">Marka: @Model.MostExpensiveProduct.BrandName</p>
+                <p class="mb-1">Fiyat: @Model.MostExpensiveProduct.Price TL</p>
+                <p class="mb-0">Stok: @Model.MostExpensiveProduct.Stock</p>
+            }
+            else
+            {
+                <p class="text-muted">Ürün bulunamadı.</p>
+            }
+        </div>
+
+        <div class="table-card mb-4">
+            <h5 class="mb-4">Düşük Stok Ürünleri</h5>
+
+            @if (Model.LowStockProducts.Any())
+            {
+                @foreach (var item in Model.LowStockProducts)
+                {
+                    <div class="d-flex justify-content-between border-bottom py-2">
+                        <span>@item.ShoeName</span>
+                        <strong class="text-danger">@item.Stock</strong>
+                    </div>
+                }
+            }
+            else
+            {
+                <p class="text-muted">Düşük stoklu ürün yok.</p>
+            }
+        </div>
+
+        <div class="table-card">
+            <h5 class="mb-4">Hızlı İşlemler</h5>
+
+            <a asp-controller="Shoe" asp-action="Create" class="btn btn-dark w-100 mb-3 btn-admin">
+                Yeni Ayakkabı Ekle
+            </a>
+
+            <a asp-controller="Category" asp-action="Create" class="btn btn-outline-dark w-100 mb-3 btn-admin">
+                Yeni Kategori Ekle
+            </a>
+
+            <a asp-controller="Brand" asp-action="Create" class="btn btn-outline-dark w-100 btn-admin">
+                Yeni Marka Ekle
+            </a>
+        </div>
+
+    </div>
+
 </div>

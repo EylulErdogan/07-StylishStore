@@ -1,239 +1,219 @@
-﻿<!doctype html>
-<html lang="en">
+﻿@using Microsoft.AspNetCore.Identity
+@using SeninMvcProjeAdi.Models
+@inject UserManager<Users> UserManager
+
+@{
+    var controller = ViewContext.RouteData.Values["controller"]?.ToString();
+    var action = ViewContext.RouteData.Values["action"]?.ToString();
+
+    var currentUser = User.Identity.IsAuthenticated
+        ? await UserManager.GetUserAsync(User)
+        : null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="assets/img/favicon.ico">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>ShoeStore Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Light Bootstrap Dashboard by Creative Tim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-    <meta name="viewport" content="width=device-width" />
+    <style>
+            body {
+                background: #f4f6fb;
+                font-family: 'Segoe UI', sans-serif;
+            }
 
-    
-    <!-- Bootstrap core CSS     -->
-    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+            .sidebar {
+                width: 270px;
+                min-height: 100vh;
+                background: linear-gradient(180deg, #111827, #020617);
+                position: fixed;
+                top: 0;
+                left: 0;
+                padding: 25px 18px;
+            }
 
-    <!-- Animation library for notifications   -->
-    <link href="~/assets/css/animate.min.css" rel="stylesheet" />
+            .brand-box {
+                color: white;
+                font-size: 25px;
+                font-weight: 800;
+                margin-bottom: 35px;
+            }
 
-    <!--  Light Bootstrap Table core CSS    -->
-    <link href="~/assets/css/light-bootstrap-dashboard.css?v=1.4.0" rel="stylesheet" />
+            .sidebar a {
+                color: #cbd5e1;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 13px 15px;
+                border-radius: 14px;
+                margin-bottom: 8px;
+                transition: .2s;
+                font-weight: 500;
+            }
 
+                .sidebar a:hover,
+                .sidebar a.active {
+                    background: white;
+                    color: #111827;
+                }
 
-    <!--  CSS for Demo Purpose, don't include it in your project     -->
-    <link href="~/assets/css/demo.css" rel="stylesheet" />
+            .sidebar-footer {
+                position: absolute;
+                bottom: 25px;
+                left: 18px;
+                right: 18px;
+            }
 
+            .content {
+                margin-left: 270px;
+                padding: 30px;
+            }
 
-    <!--     Fonts and icons     -->
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
-    <link href="~/assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+            .topbar {
+                background: white;
+                border-radius: 22px;
+                padding: 20px 25px;
+                box-shadow: 0 10px 30px rgba(15, 23, 42, .06);
+                margin-bottom: 30px;
+            }
 
+            .user-avatar {
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                background: #111827;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+            }
+
+            .stat-card,
+            .table-card {
+                background: white;
+                border-radius: 22px;
+                padding: 25px;
+                box-shadow: 0 10px 30px rgba(15, 23, 42, .06);
+            }
+
+            .btn-admin {
+                border-radius: 12px;
+                padding: 10px 16px;
+            }
+
+            .form-control {
+                border-radius: 12px;
+                padding: 12px 15px;
+                border: 1px solid #d1d5db;
+            }
+
+                .form-control:focus {
+                    box-shadow: 0 0 0 .15rem rgba(17,24,39,.15);
+                    border-color: #111827;
+                }
+
+            .btn-admin {
+                border-radius: 12px;
+                padding: 10px 18px;
+            }
+    </style>
 </head>
+
 <body>
 
-    <div class="wrapper">
-        <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+    <aside class="sidebar">
 
-            <!--
+        <div class="brand-box">
+            <i class="bi bi-bag-heart"></i> ShoeStore
+        </div>
 
-        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
-        Tip 2: you can also add an image using data-image tag
+        <a asp-controller="Admin" asp-action="Index"
+           class="@(controller == "Admin" ? "active" : "")">
+            <i class="bi bi-speedometer2"></i>
+            Dashboard
+        </a>
 
-    -->
+        <a asp-controller="Category" asp-action="Index"
+           class="@(controller == "Category" ? "active" : "")">
+            <i class="bi bi-tags"></i>
+            Kategoriler
+        </a>
 
-            <div class="sidebar-wrapper">
-                <div class="logo">
-                    <a href="http://www.creative-tim.com" class="simple-text">
-                        Creative Tim
-                    </a>
-                </div>
+        <a asp-controller="Brand" asp-action="Index"
+           class="@(controller == "Brand" ? "active" : "")">
+            <i class="bi bi-award"></i>
+            Markalar
+        </a>
 
-                <ul class="nav">
-                    <li class="active">
-                        <a href="/Category">
-                            <i class="pe-7s-graph"></i>
-                            <p>Kategori İşlemleri</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Shoe">
-                            <i class="pe-7s-note2"></i>
-                            <p>Ürün İşlemleri</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/Brand">
-                            <i class="pe-7s-news-paper"></i>
-                            <p>Marka İşlemleri</p>
-                        </a>
-                    </li>
-                 
-                    <li class="active-pro">
-                        <a href="upgrade.html">
-                            <i class="pe-7s-rocket"></i>
-                            <p>Upgrade to PRO</p>
-                        </a>
-                    </li>
-                </ul>
+        <a asp-controller="Shoe" asp-action="Index"
+           class="@(controller == "Shoe" ? "active" : "")">
+            <i class="bi bi-bag"></i>
+            Ayakkabılar
+        </a>
+        <a asp-controller="Sale" asp-action="Index"
+           class="@(controller == "Sale" ? "active" : "")">
+            <i class="bi bi-receipt"></i>
+            Satışlar
+        </a>
+        <hr class="text-secondary" />
+
+        <a asp-controller="Home" asp-action="Index">
+            <i class="bi bi-house"></i>
+            Siteye Dön
+        </a>
+
+        <div class="sidebar-footer">
+            <a asp-controller="Account" asp-action="Logout">
+                <i class="bi bi-box-arrow-right"></i>
+                Çıkış Yap
+            </a>
+        </div>
+
+    </aside>
+
+    <main class="content">
+
+        <div class="topbar d-flex justify-content-between align-items-center">
+
+            <div>
+                <h4 class="mb-0 fw-bold">
+                    @controller Yönetimi
+                </h4>
+                <small class="text-muted">
+                    ShoeStore admin paneline hoş geldiniz
+                </small>
             </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <div class="text-end">
+                    <strong>
+                        @(currentUser != null ? currentUser.FullName : "Admin")
+                    </strong>
+                    <br />
+                    <small class="text-muted">Yönetici</small>
+                </div>
+
+                <div class="user-avatar">
+                    @(currentUser != null ? currentUser.FullName.Substring(0, 1).ToUpper() : "A")
+                </div>
+            </div>
+
         </div>
 
-        <div class="main-panel">
-            <nav class="navbar navbar-default navbar-fixed">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">Dashboard</a>
-                    </div>
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav navbar-left">
-                            <li>
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-dashboard"></i>
-                                    <p class="hidden-lg hidden-md">Dashboard</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <i class="fa fa-globe"></i>
-                                    <b class="caret hidden-lg hidden-md"></b>
-                                    <p class="hidden-lg hidden-md">
-                                        5 Notifications
-                                        <b class="caret"></b>
-                                    </p>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Notification 1</a></li>
-                                    <li><a href="#">Notification 2</a></li>
-                                    <li><a href="#">Notification 3</a></li>
-                                    <li><a href="#">Notification 4</a></li>
-                                    <li><a href="#">Another notification</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <i class="fa fa-search"></i>
-                                    <p class="hidden-lg hidden-md">Search</p>
-                                </a>
-                            </li>
-                        </ul>
+        @RenderBody()
 
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a href="">
-                                    <p>Account</p>
-                                </a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <p>
-                                        Dropdown
-                                        <b class="caret"></b>
-                                    </p>
+    </main>
 
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something</a></li>
-                                    <li class="divider"></li>
-                                    <li><a href="#">Separated link</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>Log out</p>
-                                </a>
-                            </li>
-                            <li class="separator hidden-lg"></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-            @RenderBody()
-
-            <footer class="footer">
-                <div class="container-fluid">
-                    <nav class="pull-left">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    Home
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Company
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Portfolio
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Blog
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <p class="copyright pull-right">
-                        &copy; <script>document.write(new Date().getFullYear())</script> <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
-                    </p>
-                </div>
-            </footer>
-
-        </div>
-    </div>
-
+    @RenderSection("Scripts", required: false)
 
 </body>
-
-<!--   Core JS Files   -->
-<script src="~/assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="~/assets/js/bootstrap.min.js" type="text/javascript"></script>
-
-<!--  Charts Plugin -->
-<script src="~/assets/js/chartist.min.js"></script>
-
-<!--  Notifications Plugin    -->
-<script src="~/assets/js/bootstrap-notify.js"></script>
-
-<!--  Google Maps Plugin    -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-
-<!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
-<script src="~/assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
-
-<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
-<script src="~/assets/js/demo.js"></script>
-
-<script type="text/javascript">
-    $(document).ready(function(){
-
-    demo.initChartist();
-
-    $.notify({
-    icon: 'pe-7s-gift',
-    message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
-
-    },{
-    type: 'info',
-    timer: 4000
-    });
-
-    });
-</script>
-
 </html>

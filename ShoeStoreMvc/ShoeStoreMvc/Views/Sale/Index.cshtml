@@ -1,0 +1,54 @@
+﻿@model List<ShoeStoreMvc.Models.Sale>
+
+@{
+    Layout = "_AdminLayout";
+    int count = 0;
+}
+
+<div class="table-card">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h4 class="mb-0">Satış Listesi</h4>
+            <small class="text-muted">Sistemde gerçekleşen satışlar</small>
+        </div>
+
+        <div class="badge bg-dark p-3">
+            Toplam Satış: @Model.Count
+        </div>
+    </div>
+
+    <table class="table table-hover align-middle">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Ürün</th>
+                <th>Marka</th>
+                <th>Adet</th>
+                <th>Birim Fiyat</th>
+                <th>Toplam</th>
+                <th>Satış Tarihi</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                count++;
+
+                <tr>
+                    <td>@count</td>
+                    <td>@item.ShoeName</td>
+                    <td>@item.BrandName</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price TL</td>
+                    <td>
+                        <strong>@item.TotalPrice TL</strong>
+                    </td>
+                    <td>@item.SaleDate.ToString("dd.MM.yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

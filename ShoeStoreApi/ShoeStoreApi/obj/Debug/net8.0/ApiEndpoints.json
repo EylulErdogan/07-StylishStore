@@ -258,6 +258,52 @@
     ]
   },
   {
+    "ContainingType": "projebridgeapi.Controllers.SalesController",
+    "Method": "AddSale",
+    "RelativePath": "api/Sales/AddSale",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sale",
+        "Type": "ShoeStoreApi.Models.Sale",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ShoeStoreApi.Models.Sale",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "projebridgeapi.Controllers.SalesController",
+    "Method": "GetSales",
+    "RelativePath": "api/Sales/GetSales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ShoeStoreApi.Models.Sale, ShoeStoreApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "projebridgeapi.Controllers.ShoesController",
     "Method": "AddShoes",
     "RelativePath": "api/Shoes/AddShoes",

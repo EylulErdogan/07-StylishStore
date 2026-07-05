@@ -1,5 +1,88 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model ShoeStoreApi.Models.Shoe
+
 @{
+    Layout = "_AdminLayout";
+}
+
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <div class="table-card">
+
+            <div class="mb-4">
+                <h3 class="fw-bold">Ayakkabı Güncelle</h3>
+                <p class="text-muted">Ürün bilgilerini güncelleyebilirsiniz.</p>
+            </div>
+
+            <form method="post">
+
+                <input type="hidden" asp-for="Id" />
+
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <label class="form-label fw-semibold">Ürün Adı</label>
+                        <input asp-for="ShoeName" class="form-control form-control-lg" />
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <label class="form-label fw-semibold">Marka Adı</label>
+                        <input asp-for="BrandName" class="form-control form-control-lg" />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <label class="form-label fw-semibold">Fiyat</label>
+                        <input asp-for="Price" class="form-control form-control-lg" />
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <label class="form-label fw-semibold">Stok</label>
+                        <input asp-for="Stock" class="form-control form-control-lg" />
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <label class="form-label fw-semibold">Kategori</label>
+                        <select asp-for="CategoryId"
+                                asp-items="ViewBag.CategoryList"
+                                class="form-select form-select-lg">
+                            <option value="">Kategori Seçiniz</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label fw-semibold">Resim Url</label>
+                    <input asp-for="ImageUrl"
+                           class="form-control form-control-lg"
+                           id="ImageUrl" />
+                </div>
+
+                <div class="mb-4 text-center">
+                    <img id="preview"
+                         src="@Url.Content(Model.ImageUrl)"
+                         style="width:250px;height:250px;object-fit:cover;border-radius:15px;border:1px solid #ddd;" />
+                </div>
+
+                <div class="d-flex justify-content-end gap-2">
+                    <a asp-action="Index" class="btn btn-outline-secondary btn-admin">
+                        Geri Dön
+                    </a>
+
+                    <button type="submit" class="btn btn-dark btn-admin">
+                        Güncelle
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("ImageUrl").addEventListener("keyup", function () {
+            document.getElementById("preview").src = this.value;
+        });
+    </script>
 }

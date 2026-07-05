@@ -441,3 +441,4 @@ C:\Users\eylul\Documents\GitHub\07-StylishStore\ShoeStoreApi\ShoeStoreApi\obj\De
 C:\Users\eylul\Documents\GitHub\07-StylishStore\ShoeStoreApi\ShoeStoreApi\obj\Debug\net8.0\ShoeStoreApi.pdb
 C:\Users\eylul\Documents\GitHub\07-StylishStore\ShoeStoreApi\ShoeStoreApi\obj\Debug\net8.0\ShoeStoreApi.genruntimeconfig.cache
 C:\Users\eylul\Documents\GitHub\07-StylishStore\ShoeStoreApi\ShoeStoreApi\obj\Debug\net8.0\ref\ShoeStoreApi.dll
+C:\Users\eylul\Documents\GitHub\07-StylishStore\ShoeStoreApi\ShoeStoreApi\bin\Debug\net8.0\Newtonsoft.Json.dll

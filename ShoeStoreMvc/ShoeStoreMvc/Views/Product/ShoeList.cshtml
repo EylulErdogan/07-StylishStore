@@ -23,44 +23,68 @@
     <div class="container-lg">
         <div class="row">
             <main class="col-lg-12 col-md-12 col-sm-12">
-                <div class="filter-shop d-flex justify-content-between">
+                <div class="filter-shop d-flex justify-content-between align-items-center flex-wrap gap-3">
+
                     <div class="showing-product">
-                        <p>Showing 1–9 of 55 results</p>
+                        <p>
+                            Toplam @ViewBag.TotalCount ürün listeleniyor
+                        </p>
                     </div>
+
                     <div class="sort-by pb-3">
-                        <select id="input-sort" class="form-control" data-filter-sort="" data-filter-order="">
-                            <option value="">Default sorting</option>
-                            <option value="">Name (A - Z)</option>
-                            <option value="">Name (Z - A)</option>
-                            <option value="">Price (Low-High)</option>
-                            <option value="">Price (High-Low)</option>
-                            <option value="">Rating (Highest)</option>
-                            <option value="">Rating (Lowest)</option>
-                            <option value="">Model (A - Z)</option>
-                            <option value="">Model (Z - A)</option>
-                        </select>
+                        <form method="get" asp-controller="Product" asp-action="ShoeList">
+                            <input type="hidden" name="search" value="@ViewBag.Search" />
 
+                            <select name="sort"
+                                    class="form-control"
+                                    onchange="this.form.submit()">
+
+                                <option value="">Varsayılan Sıralama</option>
+
+                                <option value="name-asc" selected="@(ViewBag.Sort == "name-asc")">
+                                    İsim A-Z
+                                </option>
+
+                                <option value="name-desc" selected="@(ViewBag.Sort == "name-desc")">
+                                    İsim Z-A
+                                </option>
+
+                                <option value="price-asc" selected="@(ViewBag.Sort == "price-asc")">
+                                    Fiyat Artan
+                                </option>
+
+                                <option value="price-desc" selected="@(ViewBag.Sort == "price-desc")">
+                                    Fiyat Azalan
+                                </option>
+
+                            </select>
+                        </form>
                     </div>
+
                     <div class="sort-by pb-3">
-                        <div class="sidebar">
-                            <div class="widget-menu">
-                                <div class="widget-search-bar position-relative">
-                                    <form role="search" method="get" class="d-flex">
-                                        <input class="search-field rounded-2" placeholder="Search" type="search">
-                                        <div class="search-icon position-absolute end-0">
-                                            <a href="#">
-                                                <svg class="search">
-                                                    <use xlink:href="#search"></use>
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                        <form method="get" asp-controller="Product" asp-action="ShoeList" class="d-flex gap-2">
 
-                        </div>
+                            <input type="hidden" name="sort" value="@ViewBag.Sort" />
 
+                            <input class="form-control"
+                                   name="search"
+                                   value="@ViewBag.Search"
+                                   placeholder="Ürün veya marka ara..."
+                                   type="search" />
+
+                            <button class="btn btn-dark" type="submit">
+                                Ara
+                            </button>
+
+                            <a asp-controller="Product"
+                               asp-action="ShoeList"
+                               class="btn btn-outline-secondary">
+                                Temizle
+                            </a>
+
+                        </form>
                     </div>
+
                 </div>
 
                 <div class="product-content product-store d-flex justify-content-between flex-wrap">
