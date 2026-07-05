@@ -12,7 +12,19 @@
             <h4 class="mb-0">Satış Listesi</h4>
             <small class="text-muted">Sistemde gerçekleşen satışlar</small>
         </div>
+        <div class="d-flex gap-2">
+            <a asp-controller="Sale"
+               asp-action="ExportToPdf"
+               class="btn btn-danger btn-admin">
+                PDF İndir
+            </a>
 
+            <a asp-controller="Sale"
+               asp-action="ExportToExcel"
+               class="btn btn-success btn-admin">
+                Excel İndir
+            </a>
+        </div>
         <div class="badge bg-dark p-3">
             Toplam Satış: @Model.Count
         </div>

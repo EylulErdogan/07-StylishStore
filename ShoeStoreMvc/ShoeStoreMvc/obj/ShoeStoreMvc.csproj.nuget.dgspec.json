@@ -52,6 +52,10 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.25, )"
@@ -79,6 +83,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.4, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2026.6.1, )"
             }
           },
           "imports": [
