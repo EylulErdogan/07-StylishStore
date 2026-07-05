@@ -10,10 +10,10 @@ A full-stack shoe shopping application built using ASP.NET Core MVC, ASP.NET Cor
 
 ---
 
-![GitHub last commit](...)
-![GitHub repo size](...)
-![GitHub stars](...)
-![GitHub forks](...)
+![GitHub last commit](https://img.shields.io/github/last-commit/eylulerdogan/07-StylishStore)
+![GitHub repo size](https://img.shields.io/github/repo-size/eylulerdogan/07-StylishStore)
+![GitHub stars](https://img.shields.io/github/stars/eylulerdogan/07-StylishStore?style=social)
+![GitHub forks](https://img.shields.io/github/forks/eylulerdogan/07-StylishStore?style=social)
 
 </div>
 
